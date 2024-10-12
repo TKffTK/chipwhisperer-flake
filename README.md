@@ -23,7 +23,7 @@ experimental-features = nix-command flakes
 
 
 Run nix and jupyter
-```bash
+```bashw
 # In this folder
 nix develop
 
@@ -33,3 +33,5 @@ jupyter notebook
 ```
 
 Follow instructions from jupyter. Kernel is quite slow to start, so be patient.
+
+Note: Target compiling doens't work with this approach.
