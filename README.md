@@ -15,6 +15,14 @@ git submodule update --init jupyter # grab Jupyter notebook tutorials
 ```
 
 ## Start nix-shell with environment
+
+Experemential features of nix are required, add into `~/.config/nix/nix.conf`
+```
+experimental-features = nix-command flakes
+```
+
+
+Run nix and jupyter
 ```bash
 # In this folder
 nix develop
@@ -24,4 +32,4 @@ cd jupyter
 jupyter notebook
 ```
 
-Follow instructions
+Follow instructions from jupyter. Kernel is quite slow to start, so be patient.
