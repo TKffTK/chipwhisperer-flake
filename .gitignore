@@ -1,2 +1,2 @@
-chipwhisperer-flake.iml
-flake.lock
+*.iml
+./flake.lock
